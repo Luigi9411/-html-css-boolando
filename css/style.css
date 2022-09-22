@@ -9,7 +9,7 @@ html{
 }
 
 body{
-    margin-top: 9em;
+    margin-top: 6em;
 }
 
 img{
@@ -67,6 +67,7 @@ li {
 
 main {
 	padding-top: 3rem;
+    padding-bottom:3rem ;
 }
 
 main .container {
@@ -148,3 +149,44 @@ main .container {
     opacity: 0;
 }
 
+h6{
+    font-size: medium;
+}
+ /* footer */
+
+ footer{
+    background-color: black;
+ }
+
+ .footer-text{
+    color: white;
+ }
+
+ footer .conteiner{
+    display: flex;
+ }
+
+ .menu-top1  {
+	display: flex;
+    justify-content: space-between;
+	align-items: flex-start;
+	height: 100px;
+	padding: 0 .6em;
+	margin: 0 auto;
+	color:white;
+	text-decoration: none;
+    padding-top: 1em;
+}
+
+.icon-marg2{
+    width: 25px;
+    margin-left: .5em;
+    padding:.2em .2em;
+    margin-top: .5em;
+    background-color: white;
+    color: black;
+}
+
+.info{
+    margin-top: 0.5em;
+}
